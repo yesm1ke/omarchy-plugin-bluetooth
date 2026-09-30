@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.yesm1ke.bluetooth",
+  "name": "Bluetooth (tray)",
+  "version": "1.0.0",
+  "author": "yesm1ke",
+  "description": "Bluetooth device list with connect/disconnect. Wrapper around the stock omarchy.bluetooth panel that hides with the system tray drawer.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Bluetooth (tray)",
+    "description": "Bluetooth device list with connect/disconnect",
+    "category": "Network",
+    "allowMultiple": false,
+    "defaults": {
+      "hideWithTray": true
+    },
+    "schema": [
+      {
+        "key": "hideWithTray",
+        "type": "boolean",
+        "label": "Hide the icon with the system tray drawer",
+        "defaultValue": true
+      }
+    ]
+  }
+}

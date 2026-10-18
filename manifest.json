@@ -27,5 +27,8 @@
         "defaultValue": true
       }
     ]
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.bluetooth"
   }
 }
